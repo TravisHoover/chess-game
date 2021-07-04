@@ -29,7 +29,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="flex-center">
+    <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
       <Chessboard
         width={400}
         position={fen}
